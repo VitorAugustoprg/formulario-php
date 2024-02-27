@@ -2,14 +2,14 @@
   margin: 0px;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  overflow: hidden;
+  
 }
 body {
   background-image: url("../img/fundo-preto.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
 }
 .centralizar {
   display: flex;
