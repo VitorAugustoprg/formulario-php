@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <div class="centralizar">
+      <form action="script.php" method="post" class="container">
+        <h1>FORMULÁRIO</h1>
+        <div class="inputs-ajuste">
+          <label for="nome">Nome</label
+          ><input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu Nome"
+            autocomplete="off"
+            required
+          />
+
+          <label for="email">Email</label
+          ><input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu email"
+            autocomplete="off"
+            required
+          />
+
+          <label for="numero">Número</label
+          ><input
+            type="text"
+            id="numero"
+            name="numero"
+            placeholder="(11) "
+            autocomplete="off"
+
+          />
+
+          <div class="ajuste">
+
+          <div class="box-idade">
+          <label for="idade">Idade</label
+            ><input
+              type="number"
+              id="idade"
+              name="idade"
+              placeholder="Selecione sua idade"
+              autocomplete="off"
+              required
+            />
+          </div>
+
+            <select name="estados-brasil" id="select">
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+    
+            </select>
+          </div>
+        </div>
+
+        <div class="radios">
+          <div class="radio1">
+            <h2>Sexo</h2>
+            <p>
+              <input type="radio" name="opcao" id="" class="input-radio" /> Masculino
+            </p>
+            <p>
+              <input type="radio" name="opcao" id="" class="input-radio" /> Feminino
+            </p>
+          </div>
+
+          <div class="radio2">
+            <h2>Interesses</h2>
+            <p>
+              <input type="checkbox" name="" id="" class="input-radio" /> Futebol
+            </p>
+            <p>
+              <input type="checkbox" name="" id="" class="input-radio" /> Cursos
+            </p>
+            <p>
+              <input type="checkbox" name="" id="" class="input-radio" /> Modas
+            </p>
+          </div>
+        </div>
+         
+        <div class="box-texto">
+        <textarea name="area-texto" id="area-texto" cols="30" rows="10" class="txt-box" placeholder="Observações..."></textarea>
+        </div>
+         
+        <input type="submit" value="Enviar" id="botao-enviar" />
+      </form>
+    </div>
+  </body>
+</html>
